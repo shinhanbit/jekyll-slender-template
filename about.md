@@ -19,8 +19,10 @@ EDUCATION
 - Daegu High School, Feb 2008
 
 PROJECTS
-- An In-depth Study on Exposure to Risk Factors and Health and Safety Management, Occupational Safety & Health Research Institute, March 2017 to October 2017
-- A Study on the Relationship between Worker's Job Change and Worker's Safety Health, Occupational Safety & Health Research Institute, March 2016 to October 2016
+- An In-depth Study on Exposure to Risk Factors and Health and Safety Management,
+  Occupational Safety & Health Research Institute, March 2017 to October 2017
+- A Study on the Relationship between Worker's Job Change and Worker's Safety Health,
+  Occupational Safety & Health Research Institute, March 2016 to October 2016
 
 ARTICLES
 - Distribution of Runs and Application to Start-Up Demonstration Test, December 2017

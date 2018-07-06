@@ -12,6 +12,7 @@ permalink: /about/
 
 ★ github.com/shinhanbit
 
+
 EDUCATION
 - M.S. Statistics, Kyungpook National University, Feb 2018
 - B.E. Industrial Systems Engineering, Kumoh National Institute of Technology, Feb 2015

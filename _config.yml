@@ -1,21 +1,11 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Shin han-bit
-email: sgksqlc@naver.com
+title: My Portfolio
+email: sgksqlcl@naver.com
 description: > # this means to ignore newlines until "baseurl:"
-  Shin han-bit, sgksqlc@naver.com
-baseurl: "/jekyll-slender-template" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  Shin Han-Bit, sgksqlc@naver.com
+baseurl:  # the subpath of your site, e.g. /blog
+url: "shinhanbit.github.io" # the base hostname & protocol for your site
+permalink: /:title
+github_username:  shinhanbit
 
 # Build settings
 markdown: kramdown
-
-theme: jekyll-theme-minimal

@@ -5,8 +5,11 @@ permalink: /about/
 ---
 
 ★ Shin Han-Bit
+
 ★ Republic of Korea
+
 ★ sgksqlc@naver.com
+
 ★ github.com/shinhanbit
 
 EDUCATION

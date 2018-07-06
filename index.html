@@ -21,7 +21,7 @@ layout: default
   </div>
   <div class="col col-12">
     {% for port in site.data.portfolio %}
-      <div class="col col-{{port.width}}" style="width:49.75%">
+      <div style="width:49.75%">
         <div class="block" style="background-image:url(assets/{{port.img}})">
             <div class="block-body height-{{port.height}}">              
                 <h2 class="align-bottom-right">
@@ -34,7 +34,7 @@ layout: default
     </div>
   <div class="col col-9">
     {% for post in site.posts %}
-      <div class="col col-{{post.width}}" style="width:49.75%">
+      <div style="width:49.75%">
         <div class="block {{post.color}}">
             <div class="block-body height-{{post.height}}">
                 <span class="post-meta white-text">{{ post.date | date: "%b %-d, %Y" }}</span>

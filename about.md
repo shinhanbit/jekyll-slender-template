@@ -4,9 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Shin Han-Bit
-Republic of Korea
-sgksqlc@naver.com   github.com/shinhanbit
+★ Shin Han-Bit
+★ Republic of Korea
+★ sgksqlc@naver.com
+★ github.com/shinhanbit
 
 EDUCATION
 - M.S. Statistics, Kyungpook National University, Feb 2018

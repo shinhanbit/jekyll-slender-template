@@ -10,8 +10,9 @@ title: My Portfolio
 email: sgksqlcl@naver.com
 description: > # this means to ignore newlines until "baseurl:"
   Shin Han-Bit, sgksqlc@naver.com
-baseurl: "/jekyll-slender-template" # the subpath of your site, e.g. /blog
+baseurl: blog/ # the subpath of your site, e.g. /blog
 url: "shinhanbit.github.io" # the base hostname & protocol for your site
+permalink: /:title
 github_username:  shinhanbit
 
 # Build settings

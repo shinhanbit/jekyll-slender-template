@@ -195,6 +195,16 @@
     width:         calc(100% - (#{$spacing-unit} / 2));
 }
 
+.col-20 { 
+   width: -webkit-calc(66.66666667% - (4px / 2));
+   width:         calc(66.66666667% - (4px / 2)); 
+}
+
+.col-40 { 
+   width: -webkit-calc(33.33333333% - (4px / 2)); 
+   width:         calc(33.33333333% - (4px / 2)); 
+}
+
 @include media-query($on-laptop) {
     .col-1,
     .col-2,

@@ -9,7 +9,7 @@ categories: hanbit update
 ---
 학점 별로 학생 수를 입력하면 파이차트로 비율그리기
 
-{% highlight ruby %}
+{% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
 <head>

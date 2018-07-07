@@ -1,28 +1,73 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "계산기 만들기"
 color:  teal
 width:   6 
 height:  1
-date:   2016-03-30 11:31:49 +0200
-categories: jekyll update
+date:   2018-06-24 11:31:49 +0200
+categories: hanbit update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+계산기 만들기
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>계산기 만들기</title>
+  <style>
+  input{width:65px; height:25px;}
+  </style>
+  <script>
+    function inp(num){
+      exp.value += num;
+    }
+    function calculate(){
+      var exp = document.getElementById("exp");
+      exp.value = eval(exp.value);
+    }
+    function clr(){
+      exp.value = 0;
+    }
+    function back(){
+      exp.value = exp.value.slice(0,-1);
+    }
+  </script>
+</head>
+<body>
+<h3>계산기 만들기</h3>
+<hr>
+<form>
+<table>
+  <thead>
+  <tr><td><input type="text" id="exp" style="width:268px; height:20px" value=0></td></tr>
+  </thead>
+  <tbody>
+  <tr><td><input type="button" value="BACK" onclick="back()">
+          <input type="button" value="CE" onclick="clr()">
+          <input type="button" value="C" onclick="clr()">
+          <input type="button" value="=" onclick="calculate()"></td></tr>
+  <tr><td><input type="button" value="7" onclick="inp(7)">
+          <input type="button" value="8" onclick="inp(8)">
+          <input type="button" value="9" onclick="inp(9)">
+          <input type="button" value="/" onclick="inp('/')"></td></tr>
+  <tr><td><input type="button" value="4" onclick="inp(4)">
+          <input type="button" value="5" onclick="inp(5)">
+          <input type="button" value="6" onclick="inp(6)">
+          <input type="button" value="*" onclick="inp('*')"></td></tr>
+  <tr><td><input type="button" value="1" onclick="inp(1)">
+          <input type="button" value="2" onclick="inp(2)">
+          <input type="button" value="3" onclick="inp(3)">
+          <input type="button" value="-" onclick="inp('-')"></td></tr>
+  <tr><td><input type="button" value="0" onclick="inp(0)">
+          <input type="button" value="+" onclick="inp('+')">
+          <input type="button" value="NONE">
+          <input type="button" value="NONE"></td></tr>
+  </tbody>
+</table>
+</form>
+</body>
+</html>
 {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

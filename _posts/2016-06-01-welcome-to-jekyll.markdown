@@ -1,28 +1,55 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "올림픽 종목 선택하기"
 color:  blue
 width:   3
 height:  1
-date:   2016-03-30 11:31:49 +0200
-categories: jekyll update
+date:   2018-06-28 11:31:49 +0200
+categories: hanbit update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+올림픽 종목 선택하기
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+{% highlight py %}
+def olympic(choiceValue):
+    print("시작 : 사용자 정의 함수")
+    number = {1:'컬링', 2:'피겨 스케이팅', 3:'알파인 스키', 4:'봅슬레이', 5:'쇼트트랙', 6:"선택안함"}
+    if choiceValue == 1:
+        prt(choiceValue)
+        return (number.get(choiceValue))
+    elif choiceValue == 2:
+        prt(choiceValue)
+        return (number.get(choiceValue))
+    elif choiceValue == 3:
+        prt(choiceValue)
+        return (number.get(choiceValue))
+    elif choiceValue == 4:
+        prt(choiceValue)
+        return (number.get(choiceValue))
+    elif choiceValue == 5:
+        prt(choiceValue)
+        return (number.get(choiceValue))
+    elif choiceValue == 6:
+        prt(choiceValue)
+        return (number.get(choiceValue))
+    else:
+        prt(choiceValue)
+        return "유효숫자 입력 오류!"
+def prt(str):
+    print("메인에서 입력한 값 : %d \n" %str)
+    print("종료 : 사용자 정의 함수 \n")
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+print("선택할 종목은 다음과 같습니다.")
+number = """
+    1. 컬링
+    2. 피겨 스케이팅
+    3. 알파인 스키
+    4. 봅슬레이
+    5. 쇼트트랙
+    6. 그냥 종료
+    """
+print(number)
+su = int(input("선택(1~6) : "))
+print("사용자 정의 함수를 호출합니다.")
+value = olympic(su)
+print("종목 : %s \n" %value)
 {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

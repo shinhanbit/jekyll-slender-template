@@ -4,7 +4,7 @@
 -   id: Python
     descr: Python
     color: teal
-    xp: 6
+    xp: 7
 -   id: SQL
     descr: SQL    
     xp: 5

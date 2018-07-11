@@ -1,13 +1,13 @@
 -   id: HTML5
     descr: HTML5    
-    xp: 6
+    xp: 7
 -   id: Python
     descr: Python
     color: teal
-    xp: 7
+    xp: 8
 -   id: SQL
     descr: SQL    
-    xp: 5
+    xp: 6
 -   id: Java
     descr: Java   
     xp: 3
